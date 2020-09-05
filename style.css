@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#container{
+  width:100vw;
+  overflow: hidden;
+  position: relative;/* to appropriately position arrows*/
+}
+#wrapper{
+  display: flex;/* to create slide */
+  width : 400vw;
+  transform: translate3d(0,0,0);
+  transition: transform 1s ease-out;
+}
+
+/* slide styling */
+#slide1{
+  background-color: #25274D;
+  min-width: 100vw;
+  height: 100vh;
+}
+#slide2{
+  background-color: #5CDB95;
+  min-width: 100vw;
+  height: 100vh;
+}
+#slide3{
+  background-color: #1A1A1D;
+  min-width: 100vw;
+  height: 100vh;
+}
+#slide4{
+  background-color: #EDC7B7;
+  min-width: 100vw;
+  height: 100vh;
+  
+}
+
+/* control styling */
+#control-left{
+  position : absolute;
+  right : 132px;
+  bottom : 70px;
+  border: solid transparent 20px;
+  border-right-color: rgba(200, 100, 255, 0.8);
+  border-left-color : transparent;
+  border-top-color : transparent;
+  border-bottom-color : transparent;
+}
+#control-right{
+  position : absolute;
+  right : 40px;
+  bottom : 70px;
+  border: solid transparent 20px;
+  border-right-color: transparent;
+  border-left-color : rgba(200, 100, 255, 0.8);
+  border-top-color : transparent;
+  border-bottom-color : transparent;
+}
+#control-top{
+  position : absolute;
+  right : 85px;
+  bottom : 120px;
+  border: solid transparent 20px;
+  border-right-color: transparent;
+  border-left-color : transparent;
+  border-top-color : transparent;
+  border-bottom-color : rgba(200, 100, 255, 0.8);;
+}
+#control-bottom{
+  position : absolute;
+  right : 85px;
+  bottom : 22px;
+  border: solid transparent 20px;
+  border-right-color: transparent;
+  border-left-color : transparent;
+  border-top-color : rgba(200, 100, 255, 0.8);
+  border-bottom-color : transparent;
+}
+
+.active{
+  cursor: pointer;
+}
+.active:hover{
+  transform: scale(1.3);
+}
+
+/* contents */

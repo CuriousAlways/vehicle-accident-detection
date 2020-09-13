@@ -1,0 +1,22 @@
+#slide3{
+  background-image: url('../images/accident1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(26, 26, 29, 0.75);
+  width: 100vw;
+  height: 100vh; 
+  font-size : 28px;
+  color: #F1F1F1;
+}
+
+#slide3 .content{
+  width: 70vw;
+  margin : 5% auto;
+}
+
+#slide3 h1{
+  font-size: 42px;
+  text-decoration: underline;
+  color: #C3073F;
+  margin-bottom: 50px;
+}

@@ -15,16 +15,7 @@
 }
 
 /* slide styling */
-#slide1{
-  background-color: #25274D;
-  min-width: 100vw;
-  height: 100vh;
-}
-#slide2{
-  background-color: #5CDB95;
-  min-width: 100vw;
-  height: 100vh;
-}
+
 #slide3{
   background-color: #1A1A1D;
   min-width: 100vw;

@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="CSS/slide1.css">
   <link rel="stylesheet" href="CSS/slide2.css">
   <link rel="stylesheet" href="CSS/slide3.css">
+  <link rel="stylesheet" href="CSS/slide4.css">
+  <link rel="stylesheet" href="CSS/slide5.css">
+  <link rel="stylesheet" href="CSS/slide6.css">
+  <link rel="stylesheet" href="CSS/slide7.css">
+  <link rel="stylesheet" href="CSS/slide8.css">
 </head>
 <body>
 
@@ -58,8 +63,73 @@
   
       <!-- SLIDE 4 -->
       <div id='slide4'>
-  
+        <div class='content'>
+          <h1>Tasks</h1>
+          <!-- <ol>
+            <li>Vehicle detection</li>
+            <li>Vehicle	tracking	and	feature	extraction</li>
+            <li>Accident	detection</li>
+          </ol> -->
+        </div>
       </div>
+
+      <!-- SLIDE 5 -->
+      <div id='slide5'>
+        <div class='content'>
+          <h1>Vehicle Detection</h1>
+          <ul>
+            <li>mask R-CNN for vehicle detection</li>
+            <li>output dictionary containing all the class IDs, detection scores, bounding boxes, and the generated masks for a given video frame
+            </li>
+            <div id='objectDetection'>
+              <img src='./images/object1.jpg'>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SLIDE 6 -->
+      <div id='slide6'>
+        <div class='content'>
+          <img src='./images/mask_rcnn.jpg'>
+          <p>mask R-CNN</p>
+        </div>
+      </div>
+
+
+      <!-- SLIDE 7 -->
+      <div id='slide7'>
+        <div class='content'>
+          <h1>Vehicle Tracking and Feature Extraction</h1>
+          <h3>Vehicle detection would give us</h3>
+          <ol>
+            <li>Bounding boxes</li>
+            <li>Centroid : (x1,y1)  width : a1 height : b1</li>
+          </ol>
+          
+          <h3>We can use these for - </h3>
+          <ul>
+            <li>centroid tracking algorithm to track detected vehicle in succesive frame</li>
+            <li>centroid coordinate can be used to determine trajectory</li>
+            <li>Speed = <i class='math'>(Pf - Pi)/FPS</i>, FPS=frame per second</li>
+            <li>Accelaration = <i class='math'>(Sf - Si)/FPS</i></li>
+          </ul>
+          <!-- <p><img src="./images/trajectory.png"> </p>-->  
+          
+          <!-- <p>Centroid of B : (x2,y2)  width : a2 height : b2</p> -->
+          <!-- <p>Overlap condition : <i>(2abs(x1-x2) < (a1+a2))</i>
+          and <i>(2abs(y1-y2) < (b1+b2))</i></p> -->
+        </div>
+      </div>
+
+      <!-- SLIDE 8 -->
+      <div id='slide8'>
+        <div class='content'>
+          <img src='./images/box.png'>
+          <img src='./images/trajectory.png'>
+        </div>
+      </div>
+
     </div>
     <div id='control-left'></div>
     <div id='control-right'></div>

@@ -3,7 +3,7 @@
   min-width: 100vw;
   height: 100vh;
   font-size : 28px;
-  color: #D1D7E0;
+  color: #E1E7E0;
 }
 
 #slide7 .content{
@@ -13,12 +13,13 @@
 
 #slide7 h1{
   font-size: 42px;
-  color: #802BB1;
+  color: rgb(132, 31, 190);
   margin: 20px 0;
 }
 
 #slide7 h3{
   margin: 35px 0 25px;
+  color : #F7FA75;
 }
 
 #slide7 li{
@@ -26,5 +27,5 @@
 }
 
 #slide7 .math{
-  color : #F070A1;
+  color : rgb(241, 84, 145);
 }

@@ -1,27 +1,27 @@
-#slide8{
+#slide13{
   background-color: #2D283E;
   min-width: 100vw;
   height: 100vh;
-  font-size : 28px;
+  font-size : 24px;
   color: #E1E7E0;
 }
 
-#slide8 .content{
-  max-width: 80vw;
+#slide13 .content{
+  min-width: 80vw;
   margin: 1% auto 5%;
 }
 
-#slide8 h1{
+#slide13 h1{
   font-size: 42px;
   color: rgb(132, 31, 190);
   margin: 20px 0;
 }
 
-#slide8 h3{
-  margin: 35px 0 25px;
-  color : #F7FA75;
+#slide13 li{
+  margin : 15px 0 0 3%;
 }
 
-#slide8 li{
-  margin : 15px 0 0 3%;
+#slide13 li a{
+  text-decoration: none;
+  color : palevioletred;
 }

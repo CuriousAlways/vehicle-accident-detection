@@ -1,0 +1,13 @@
+#slide12{
+  background-color: #FFF;
+  min-width: 100vw;
+  height: 100vh;
+  font-size : 28px;
+  color: #24305E;
+}
+
+#slide12 .content {
+  min-width: 80vw;
+  text-align: center;
+  margin-top : 5px; 
+}

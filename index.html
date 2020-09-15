@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="CSS/slide6.css">
   <link rel="stylesheet" href="CSS/slide7.css">
   <link rel="stylesheet" href="CSS/slide8.css">
+  <link rel="stylesheet" href="CSS/slide9.css">
+  <link rel="stylesheet" href="CSS/slide10.css">
+  <link rel="stylesheet" href="CSS/slide11.css">
+  <link rel="stylesheet" href="CSS/slide12.css">
+  <link rel="stylesheet" href="CSS/slide13.css">
 </head>
 <body>
 
@@ -125,9 +130,71 @@
       <!-- SLIDE 8 -->
       <div id='slide8'>
         <div class='content'>
-          <img src='./images/box.png'>
-          <img src='./images/trajectory.png'>
+          <h1>Centroid Tracking algorithm</h1>
+          <ul>
+            <li>Accept bounding box coordinates and compute centroids (x, y)  for each detected object in every single frame
+            </li>
+            <li>compute the Euclidean distance between centroids of each pair of existing object(previously detected) and newly detected objects
+            </li>
+            <li>centroid tracking algorithm assumes that object may move in subsequent frame but distance between centroid of same object will be smaller than distance between objects
+            </li>
+          </ul>
+          <h3>Corner Cases</h3>
+          <ul>
+            <li>Add new objects</li>
+            <li>Remove undetected objects</li>
+          </ul>
         </div>
+      </div>
+
+      <!-- SLIDE 9 -->
+      <div id='slide9'>
+        <div class='content'>
+          <img src='./images/centroid1.png'>
+          <img src='./images/centroid2.png'>
+        </div>
+      </div>
+
+      <div id='slide10'>
+        <div class='content'>
+          <h1>Tracjectory</h1>
+          <img src="./images/trajectory.png">
+        </div>
+      </div>
+      
+      <div id='slide11'>
+        <div class="content">
+          <h1>Accident Detection</h1>
+          <ul>
+            <li>Accident is characterized by overlapping bounding boxes</li>
+            <li>To improve accurecy we would also look for abrupt changes in accelaration,trajectory and change in angle
+            </li>
+            <li>Thus we look for : </li>
+            <ol>
+              <li>Accelaration anomaly</li>
+              <li>Trajectory anomaly</li>
+              <li>Change in angle anomaly</li>
+            </ol>
+          </ul>
+        </div>
+      </div>
+
+      <div id='slide12'>
+        <div class='content'>
+          <h5>Accident Detection</h1>
+          <img src='./images/accidentFlowChart.png'>
+        </div>
+      </div>
+
+      <div id='slide13'>
+        <h1>References</h1>
+        <ol>
+          <li>Road	accident	in	India-2018,	Ministry	of	Road	Transport	and	Highways,GOI</li>
+          <li>K.	He,	G.	Gkioxari,	P.	Dollr,	and	R.	Girshick,	“Mask	r-cnn,”	in	Proc.	of	IEEE	International	Conference	on	Computer	Vision	(ICCV),	Oct	2017,pp.2980–2988</li>
+          <li>P Ijjina,D Chand,S Gupta,Goutham	K,“Computer	Vision-based	Accident Detection	in	Traffic	Surveillance”,Nov	2019</li>
+          <li>V Gaurav,S K Singh,A Srivastava,“Accident	Detection,	Severity	Prediction,	Identification	of	AccidentProne	Areas	in	India	and	Feasibility	Study	using	Improved	Image	Segmentation,	Machine	Learning	and	Sensors”,Oct	2019</li>
+          <li>A Rosebrock, <a href="https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/">OpenCV object tracking</a>,july 2018 </li>
+        </ol>
       </div>
 
     </div>

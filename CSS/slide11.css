@@ -1,0 +1,26 @@
+#slide11{
+  background-color: #5CDB95;
+  min-width: 100vw;
+  height: 100vh;
+  font-size : 28px;
+  color: #05386B;
+}
+
+#slide11 .content{
+  max-width: 70vw;
+  margin: 5% auto 5%;
+}
+
+#slide11 h1{
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+#slide11 li{
+  margin : 30px 0 0 3%;
+  color : #FFFFFF;
+}
+
+#slide11 p{
+  margin-top: 80px;
+}

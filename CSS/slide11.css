@@ -21,6 +21,6 @@
   color : #FFFFFF;
 }
 
-#slide11 p{
-  margin-top: 80px;
+#slide11 li i {
+  color : rgb(26, 110, 179);
 }

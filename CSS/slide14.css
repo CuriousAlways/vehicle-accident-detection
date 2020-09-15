@@ -1,0 +1,13 @@
+#slide14{
+  background-color: #beef00;;
+  min-width: 100vw;
+  height: 100vh;
+  color: #020202;
+  font-size: 100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+#slide14 h1{
+  font-size: 100px;
+}
